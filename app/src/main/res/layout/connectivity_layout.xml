@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConnectivityLayoutActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_item_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5acd3"
+        android:gravity="center_horizontal"
+        android:minHeight="88dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_bluetooth"
+            android:layout_width="88dp"
+            android:layout_height="88dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_item_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5acd3"
+        android:gravity="center_horizontal"
+        android:minHeight="88dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_wifi"
+            android:layout_width="88dp"
+            android:layout_height="88dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_item_rfid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5acd3"
+        android:gravity="center_horizontal"
+        android:minHeight="88dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_rfid"
+            android:layout_width="88dp"
+            android:layout_height="88dp" />
+    </LinearLayout>
+
+</LinearLayout>
